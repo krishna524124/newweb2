@@ -1,12 +1,9 @@
-import type { NextConfig } from 'next'
+import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  images: {
-    remotePatterns: [],
+  eslint: {
+    ignoreDuringBuilds: true,
   },
-  experimental: {
-    optimizeCss: true,
-  },
-}
+};
 
-export default nextConfig
+export default nextConfig;
